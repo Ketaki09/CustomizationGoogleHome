@@ -4,9 +4,9 @@ error_reporting(E_ALL ^ E_DEPRECATED);
 
 header('Content-Type: application/json');
 
-        define('DB_USER', "id7381588_tushakale"); // db user
-        define('DB_PASSWORD', "qwertyuiop"); // db password (mention your db password here)
-        define('DB_DATABASE', "id7381588_actions_db"); // database name
+        define('DB_USER', ""); // db user
+        define('DB_PASSWORD', ""); // db password (mention your db password here)
+        define('DB_DATABASE', ""); // database name
         define('DB_SERVER', "localhost"); // db server
 
 //define('DB_USER', "root"); // db user

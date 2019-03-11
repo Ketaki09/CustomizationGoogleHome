@@ -14,7 +14,7 @@ old_draft=t['draft'];
 old_time_shutdown=t['time'];
 
 while True:
-    req = request.get('https://tushakale.000webhostapp.com/fetch.php')
+    req = request.get('webhost link')
     t = req.json()
     new_time = t['time']
     new_draft = t['draft']
